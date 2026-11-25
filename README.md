@@ -2,6 +2,8 @@
 
 ![Demonstração da interface do projeto Forest](./src/img/preview.jpg)
 
+> **Acesse o site publicado:** [https://forest-src.vercel.app/](https://forest-src.vercel.app/)
+
 Landing page institucional desenvolvida para a **Forest**, uma empresa fictícia especializada em locação de cabines e experiências imersivas na natureza. O projeto foi construído do zero, adotando uma abordagem de engenharia reversa visual: o layout e o comportamento da interface foram recriados a partir da observação do produto final, sem acompanhamento passo a passo de aulas ou uso de códigos prontos.
 
 ---
@@ -16,8 +18,7 @@ Landing page institucional desenvolvida para a **Forest**, uma empresa fictícia
   - [Grids Assimétricos e Responsividade](#grids-assimétricos-e-responsividade)
   - [Lógica Dinâmica em JavaScript](#lógica-dinâmica-em-javascript)
 - [Estrutura de Pastas](#estrutura-de-pastas)
-- [Como Executar o Projeto](#como-executar-o-projeto)
-- [Aprendizados e Próximos Passos](#aprendizados-e-próximos-passos)
+- [Principais Aprendizados](#principais-aprendizados)
 
 ---
 
@@ -150,39 +151,6 @@ forest/
 ├── package.json
 └── README.md
 ```
-
----
-
-## Como Executar o Projeto
-
-### Pré-requisitos
-
-- **Node.js** instalado (versão 18 ou superior recomendada).
-- Um navegador web moderno.
-
-### Passo a passo
-
-1. **Clone o repositório:**
-
-   ```bash
-   git clone https://github.com/seu-usuario/forest.git
-   cd forest
-   ```
-
-2. **Instale as dependências:**
-
-   ```bash
-   npm install
-   ```
-
-3. **Inicie o compilador do Tailwind em modo de observação (_watch_):**
-
-   ```bash
-   npm run tailwind
-   ```
-
-4. **Abra a aplicação:**
-   - Abra o arquivo `src/index.html` diretamente em seu navegador, ou utilize uma extensão como o _Live Server_ do VS Code para recarregamento automático.
 
 ---
 

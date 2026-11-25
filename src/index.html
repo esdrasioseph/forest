@@ -29,7 +29,7 @@
         <a href="#">
             <img src="./img/forest.svg" alt="ícone forest">
         </a>
-        <button class="flex gap-2 md:hidden items-center justify-between bg-gradient-to-b from-musk-200 to-musk-400 
+        <button class="flex gap-2 md:hidden items-center justify-between bg-linear-to-b from-musk-200 to-musk-400 
             hover:brightness-110 py-1 px-6 rounded-full" id="menuBtn">
             <span>Menu</span>
             <div class="flex flex-col pl-2 gap-1 *:bg-musk-800 *:h-0.5 *:w-4">
@@ -47,9 +47,8 @@
                 group-[.opacity-100]:delay-200 duration-500 ease-out md:animate-slideIn md:[animation-delay:150ms]">
                     <a class="myLinks md:hover:border-b-2 border-white/75 p-2" href="#acomodacoes">Acomodações</a>
                 </li>
-                <li
-                    class="-translate-x-10 group-[.opacity-100]:translate-x-0 transition-all 
-                group-[.opacity-100]:delay-[400ms] duration-500 ease-out md:animate-slideIn md:[animation-delay:300ms]">
+                <li class="-translate-x-10 group-[.opacity-100]:translate-x-0 transition-all 
+                group-[.opacity-100]:delay-400 duration-500 ease-out md:animate-slideIn md:[animation-delay:300ms]">
                     <a class="myLinks md:hover:border-b-2 border-white/75 p-2" href="#eventos">Eventos</a>
                 </li>
                 <li class="-translate-x-10 group-[.opacity-100]:translate-x-0 transition-all 
@@ -69,8 +68,8 @@
             <div class="md:flex md:max-w-fit md:items-center md:gap-5 bg-musk-800/75 mx-3 py-4 px-4 md:px-3.5 md:py-2
              md:rounded-3xl rounded-xl">
                 <p class="text-white mb-2">Vagas para dezembro abertas</p>
-                <a class="flex gap-2 items-center justify-between bg-gradient-to-b from-musk-200 to-musk-400 
-                    hover:brightness-110 py-1.5 px-5 rounded-full" href="#form">
+                <a class="flex gap-2 items-center justify-between bg-linear-to-b from-musk-200 to-musk-400 
+                    hover:brightness-110 py-1.5 px-5 rounded-full hover:cursor-pointer max-w-fit" href="#form">
                     <span>Reserve Hoje</span>
                     <span><img src="./img/seta.svg" alt=""></span>
                 </a>
@@ -100,14 +99,14 @@
             </div>
         </div>
 
-        <video src="./img/video_sol.mp4" autoplay muted loop
-            class="absolute inset-0 object-cover -z-10 size-full"></video>
+        <video src="./img/video_sol.mp4" autoplay muted loop class="absolute inset-0 object-cover -z-10 size-full"
+            id="forestVideo"></video>
     </main>
 
-    <section class="md:grid md:grid-cols-[1fr_2fr] mt-16 pt-10 pb-16 bg-gradient-to-bl from-musk-500/25 to-musk-200/10"
+    <section class="md:grid md:grid-cols-[1fr_2fr] mt-16 pt-10 pb-16 bg-linear-to-bl from-musk-500/25 to-musk-200/10"
         id="acomodacoes">
-        <div class="flex flex-col justify-end gap-3 bg-[url(./img/padrao.svg)] bg-no-repeat md:bg-[position:2rem_bottom] 
-        md:bg-[length:480px]">
+        <div class="flex flex-col justify-end gap-3 bg-[url(./img/padrao.svg)] bg-no-repeat md:bg-position-[2rem_bottom] 
+        md:bg-size-[480px]">
             <h2 class="text-white text-3xl md:text-5xl pb-4 ml-4 font-serif">Refúgio Natural</h2>
             <div class="flex gap-4 items-center ml-2">
                 <span class="bg-musk-200 h-0.5 w-6"></span>
@@ -135,7 +134,7 @@
             </div>
         </div>
 
-        <div class="grid mt-8 mx-2 gap-4 grid-cols-3 grid-rows-6 max-h-[420px] md:max-h-[100vh]">
+        <div class="grid mt-8 mx-2 gap-4 grid-cols-3 grid-rows-6 max-h-[420px] md:max-h-screen">
             <div class="col-span-3 row-span-3 md:row-span-2 relative">
                 <img src="./img/casa1.jpg" alt="" class=" w-full h-full rounded-2xl object-cover">
                 <span class="absolute top-2 right-4 bg-black/40 py-1 px-4 rounded-full text-white">RUBY</span>
@@ -172,7 +171,7 @@
                             Céu estará
                             claro e
                             as estrelas visíveis.</p>
-                        <a href="#" class="bg-gradient-to-b from-musk-200 to-musk-400 
+                        <a href="#" class="bg-linear-to-b from-musk-200 to-musk-400 
                 hover:brightness-110 py-2.5 px-6 rounded-full text-black">Reservar 23/03</a>
                     </div>
 
@@ -187,7 +186,7 @@
                             iluminado
                             pelas estrelas.</p>
 
-                        <a href="#" class="bg-gradient-to-b from-musk-200 to-musk-400 
+                        <a href="#" class="bg-linear-to-b from-musk-200 to-musk-400 
                     hover:brightness-110 py-2.5 px-6 rounded-full text-black">Reservar 15/04</a>
                     </div>
 
@@ -201,7 +200,7 @@
                             iluminado
                             pelas estrelas.</p>
 
-                        <a href="#" class="bg-gradient-to-b from-musk-200 to-musk-400 hover:brightness-110 
+                        <a href="#" class="bg-linear-to-b from-musk-200 to-musk-400 hover:brightness-110 
                         py-2.5 px-6 rounded-full text-black">Reservar 18/08</a>
                     </div>
                 </div>
@@ -209,7 +208,7 @@
         </article>
     </section>
 
-    <section class="mt-10 md:grid md:grid-cols-[1fr_1fr] md:grid-rows-1 md:gap-5 md:h-[100vh]" id="experiencias">
+    <section class="mt-10 md:grid md:grid-cols-[1fr_1fr] md:grid-rows-1 md:gap-5 md:h-screen" id="experiencias">
         <div class="flex flex-col bg-musk-800 p-6 pl-8 mx-2 gap-6 rounded-lg">
             <h2 class="text-musk-300 tracking-widest text-sm">EXPERIÊNCIAS EXCLUSIVAS</h2>
 
@@ -247,7 +246,7 @@
             </div>
         </div>
 
-        <div class="mt-8 grid grid-cols-2 grid-rows-2 gap-4 max-h-[420px] md:max-h-[100vh] mx-2">
+        <div class="mt-8 grid grid-cols-2 grid-rows-2 gap-4 max-h-[420px] md:max-h-screen mx-2">
             <div class="row-span-1 col-span-1 group overflow-hidden rounded-2xl relative hover:cursor-pointer">
                 <img src="./img/canoagem.jpg" alt="" class="w-full h-full rounded-2xl object-cover group-hover:brightness-75 
                     group-hover:scale-110 transition duration-500">
@@ -269,7 +268,7 @@
     </section>
 
     <section
-        class="mt-16 md:pt-10 pb-16 bg-[url(./img/padrao.svg)] bg-no-repeat bg-center bg-[length:90%] md:bg-[length:30%]">
+        class="mt-16 md:pt-10 pb-16 bg-[url(./img/padrao.svg)] bg-no-repeat bg-center bg-size-[90%] md:bg-size-[30%]">
         <div class="text-center">
             <h2 class="text-musk-300 tracking-widest text-sm mb-4">CICLO NATURAL</h2>
 
@@ -283,7 +282,7 @@
             <div class="mt-6 grid gap-3 bg-musk-800 mx-2 md:mx-4 rounded-lg p-6 md:flex-1
              md:hover:-translate-y-2 transition">
                 <span>
-                    <img src="./img/manha.svg" alt="" class="bg-gradient-to-b from-musk-200 to-musk-400 
+                    <img src="./img/manha.svg" alt="" class="bg-linear-to-b from-musk-200 to-musk-400 
                     hover:brightness-110 p-2 rounded-full">
                 </span>
                 <h2 class="text-white text-2xl font-serif">Amanhecer</h2>
@@ -299,7 +298,7 @@
             <div class="mt-6 grid gap-3 md:translate-y-10 bg-musk-800 mx-2 md:mx-0 rounded-lg p-6 
                 md:flex-1 md:hover:translate-y-8 transition">
                 <span>
-                    <img src="./img/dia.svg" alt="" class="bg-gradient-to-b from-musk-200 to-musk-400 
+                    <img src="./img/dia.svg" alt="" class="bg-linear-to-b from-musk-200 to-musk-400 
                     hover:brightness-110 p-2 rounded-full">
                 </span>
                 <h2 class="text-white text-2xl font-serif">Meio-dia</h2>
@@ -312,7 +311,7 @@
             <div class="mt-6 grid gap-3 bg-musk-800 mx-2 md:mx-4 rounded-lg p-6 md:flex-1 
             md:hover:-translate-y-2 transition">
                 <span>
-                    <img src="./img/noite.svg" alt="" class="bg-gradient-to-b from-musk-200 to-musk-400 
+                    <img src="./img/noite.svg" alt="" class="bg-linear-to-b from-musk-200 to-musk-400 
                     hover:brightness-110 p-2 rounded-full">
                 </span>
                 <h2 class="text-white text-2xl font-serif">Noite</h2>
@@ -360,29 +359,29 @@
             <form id="form">
                 <div class="grid gap-2">
                     <label for="name" class="text-white">Nome</label>
-                    <input type="text" required id="name" class="bg-musk-700 p-2 rounded-lg">
+                    <input type="text" required id="name" class="bg-musk-700 text-white p-2 rounded-lg">
                 </div>
 
                 <div class="md:flex md:gap-2 md:justify-center md:*:w-full">
                     <div class="mt-4 grid gap-2">
                         <label for="email" class="text-white">Email</label>
-                        <input type="email" required id="email" class="bg-musk-700 p-2 rounded-lg">
+                        <input type="email" required id="email" class="bg-musk-700 text-white p-2 rounded-lg">
                     </div>
 
                     <div class="mt-4 grid gap-2">
                         <label for="phone" class="text-white">Telefone</label>
-                        <input type="tel" required id="phone" class="bg-musk-700 p-2 rounded-lg">
+                        <input type="tel" required id="phone" class="bg-musk-700 text-white p-2 rounded-lg">
                     </div>
                 </div>
 
                 <div class="mt-4 grid gap-2">
                     <label for="message" class="text-white">Mensagem</label>
                     <textarea name="message" required id="message" rows="5"
-                        class="bg-musk-700 p-2 rounded-lg"></textarea>
+                        class="bg-musk-700 text-white p-2 rounded-lg"></textarea>
                 </div>
 
-                <button class="mt-4 bg-gradient-to-b from-musk-200 to-musk-400 shadow-md shadow-musk-400/50
-                    hover:brightness-110 py-1.5 px-5 rounded-full">
+                <button class="mt-4 bg-linear-to-b from-musk-200 to-musk-400 shadow-md shadow-musk-400/50
+                    hover:brightness-110 py-1.5 px-5 rounded-full hover:cursor-pointer">
                     Enviar Email
                 </button>
             </form>
